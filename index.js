@@ -1,4 +1,3 @@
-/*
 import TelegramBot from "node-telegram-bot-api";
 import puppeteer from "puppeteer";
 import { exec } from "node:child_process";
@@ -10,7 +9,7 @@ import path from "path";
 const token = "";
 
 /* --------------------------------------------------------- */
-/*
+
 class CodeConverter {
     constructor() {
         this.browser = null;
@@ -176,7 +175,7 @@ class CodeConverter {
     };
 }
 /* --------------------------------------------------------- */
-/*
+
 const startBot = async () => {
     // Create a bot that uses 'polling' to fetch new updates
     const bot = new TelegramBot(token, { polling: true });
@@ -255,5 +254,3 @@ const startBot = async () => {
 };
 
 startBot();
-
-*/
